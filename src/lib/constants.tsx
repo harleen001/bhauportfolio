@@ -10,10 +10,22 @@ export const ANIMATION_DURATION = {
 };
 
 export const SECTIONS: Section[] = [
-  { content: <Home />, title: 'Home' },
-  { content: <Description />, title: '' },
-  { content: <Projects />, title: '' },
-  { content: <Contact />, title: 'Contact' },
+  {
+    content: <Home />, title: 'Home',
+    subsections: undefined
+  },
+  {
+    content: <Description />, title: '',
+    subsections: undefined
+  },
+  {
+    content: <Projects />, title: '',
+    subsections: undefined
+  },
+  {
+    content: <Contact />, title: 'Contact',
+    subsections: undefined
+  },
 ];
 
 // Set black background color for all themes
@@ -59,3 +71,16 @@ export const SECTION_THEME_MAP: {
   [Sections.Project]: THEMES.experiences,
   [Sections.Contact]: THEMES.main,
 };
+export const WORKS_ITEMS = [
+  {
+
+   title: 'Mjolnir',
+   subject: 'Design and Implementation',
+   description:
+    "Mjolnir is a platform forged in the spirit of Norse mythology, where the power of creation is placed in your hands. It's built with Svelte.",
+   link: 'https://mjolnir.ainurhq.cloud',
+   techStack: ['Svelte', 'TypeScript', 'Tailwind CSS'],
+  },
+  
+ ];
+export const WORK_SUBSECTIONS = WORKS_ITEMS.length;

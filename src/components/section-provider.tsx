@@ -11,7 +11,7 @@ import {
   ANIMATION_DURATION,
   SECTION_THEME_MAP,
   SECTIONS,
- 
+  WORK_SUBSECTIONS,
 } from '@/lib/constants';
 
 export const SectionContext = createContext<SectionContextType | undefined>(
@@ -62,18 +62,26 @@ export const SectionProvider = ({
       setIsTransitioning(true);
       setCanScroll(false);
 
-      if (sectionIndex === Sections.Description) {
+      if (sectionIndex === Sections.Works) {
         setSubsectionIndex((prevSubIndex) => {
           const newSubIndex =
             direction === 'down' ? prevSubIndex + 1 : prevSubIndex - 1;
 
-          
+          if (newSubIndex >= WORK_SUBSECTIONS) {
+            setSubsectionIndex(0);
+            setSectionIndex(Sections.Experience);
+            return 0;
+          } else if (newSubIndex < 0) {
+            setSubsectionIndex(WORK_SUBSECTIONS - 1);
+            setSectionIndex(Sections.Home);
+            return WORK_SUBSECTIONS - 1;
+          }
 
           return newSubIndex;
         });
-      } else if (sectionIndex === Sections.Project && direction === 'up') {
-        setSectionIndex(Sections.Description);
-     
+      } else if (sectionIndex === Sections.Experience && direction === 'up') {
+        setSectionIndex(Sections.Works);
+        setSubsectionIndex(WORK_SUBSECTIONS - 1);
       } else {
         setSubsectionIndex(0);
         handleMainSectionChange(direction);
@@ -159,7 +167,7 @@ export const SectionProvider = ({
 
     if (
       typeof colorsMap === 'object' &&
-      sectionIndex === Sections.Description &&
+      sectionIndex === Sections.Works &&
       subsectionIndex in colorsMap
     ) {
       colors = (colorsMap as { [subKey: number]: SectionColors })[subsectionIndex];
