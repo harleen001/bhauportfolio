@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import Figure from '@/assets/images/figure-2.webp';
+import Figure from '@/assets/images/contactbhau.png';
 
 export default function NeonFigure() {
  return (
