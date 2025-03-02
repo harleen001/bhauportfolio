@@ -62,14 +62,14 @@ export const SectionProvider = ({
       setIsTransitioning(true);
       setCanScroll(false);
 
-      if (sectionIndex === Sections.Works) {
+      if (sectionIndex === Sections.Description) {
         setSubsectionIndex((prevSubIndex) => {
           const newSubIndex =
             direction === 'down' ? prevSubIndex + 1 : prevSubIndex - 1;
 
           if (newSubIndex >= WORK_SUBSECTIONS) {
             setSubsectionIndex(0);
-            setSectionIndex(Sections.Experience);
+            setSectionIndex(Sections.Project);
             return 0;
           } else if (newSubIndex < 0) {
             setSubsectionIndex(WORK_SUBSECTIONS - 1);
@@ -79,8 +79,8 @@ export const SectionProvider = ({
 
           return newSubIndex;
         });
-      } else if (sectionIndex === Sections.Experience && direction === 'up') {
-        setSectionIndex(Sections.Works);
+      } else if (sectionIndex === Sections.Project && direction === 'up') {
+        setSectionIndex(Sections.Description);
         setSubsectionIndex(WORK_SUBSECTIONS - 1);
       } else {
         setSubsectionIndex(0);
@@ -167,7 +167,7 @@ export const SectionProvider = ({
 
     if (
       typeof colorsMap === 'object' &&
-      sectionIndex === Sections.Works &&
+      sectionIndex === Sections.Description &&
       subsectionIndex in colorsMap
     ) {
       colors = (colorsMap as { [subKey: number]: SectionColors })[subsectionIndex];
