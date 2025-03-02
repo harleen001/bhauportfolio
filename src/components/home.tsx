@@ -7,6 +7,7 @@ import Image from 'next/image';
 import { useEffect } from 'react';
 import { BubbleText } from './ui/bubble-text';
 
+
 const glitchConfig = {
  playMode: 'always',
  createContainers: true,
@@ -78,6 +79,7 @@ export default function Home() {
    >
     Contact me
    </button>
+ 
   </div>
  );
 }

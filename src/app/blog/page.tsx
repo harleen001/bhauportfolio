@@ -27,6 +27,7 @@ export default function BlogPage() {
                     <BlogCard post={post} key={post.title} />
                 ))}
             </main>
+          
             <Curves />
         </>
     );

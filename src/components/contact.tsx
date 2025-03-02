@@ -4,7 +4,9 @@ import NeonFigure from './neon-figure';
 
 export default function Contact() {
  return (
+    
   <motion.div
+ 
    initial={{ opacity: 0, y: 20 }}
    animate={{ opacity: 1, y: 0 }}
    transition={{ duration: 0.6 }}
@@ -35,7 +37,7 @@ export default function Contact() {
      href="mailto:mhzrerfani@gmail.com"
      className="text-xl font-semibold text-theme-primary underline mb-6 hoverable "
     >
-     mhzrerfani@gmail.com
+     i@gmail.com
     </motion.a>
     <motion.div
      initial={{ opacity: 0, y: 20 }}

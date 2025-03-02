@@ -3,6 +3,7 @@ import Home from '@/components/home';
 import MjolnirCover from '@/assets/images/mjolnir-cover.webp';
 import AinurCover from '@/assets/images/ainur-cover.webp';
 import JetonCover from '@/assets/images/jeton-cover.webp';
+import Description from "@/components/Description/Description";
 
 import Contact from '@/components/contact';
 
@@ -14,7 +15,7 @@ export const ANIMATION_DURATION = {
 
 export const SECTIONS: Section[] = [
  { content: <Home />, title: 'Home' },
-
+  {content: <Description/>, title:'Projects'},
  
  {
   content: <Contact />,
