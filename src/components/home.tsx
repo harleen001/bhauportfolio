@@ -1,6 +1,6 @@
 'use client';
 
-import IntroFigure from '@/assets/images/intro-figure.webp';
+import IntroFigure from '@/assets/images/web.png';
 import { useSection } from '@/lib/hooks';
 import { Sections } from '@/lib/types';
 import Image from 'next/image';
