@@ -2,7 +2,7 @@ import { getAllPosts } from '@/lib/posts';
 import Curves from '@/components/curves';
 import { Metadata } from 'next';
 import Image from "next/image"
-import Socials from '@/components/socials';
+
 import BlogCard from '@/components/blog-card';
 
 export default function BlogPage() {
@@ -16,7 +16,7 @@ export default function BlogPage() {
                 <div className='flex flex-col gap-8 items-center sm:items-start'>   <h1 className="text-4xl font-bold text-white">
                     {`Mahziyar Erfani's Blog`}
                 </h1>
-                    <Socials />
+             
                 </div>
 
             </header>

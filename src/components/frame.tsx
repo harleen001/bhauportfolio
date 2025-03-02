@@ -1,10 +1,10 @@
 'use client';
 
 import { useSection } from '@/lib/hooks';
-import Navigation from './navigation';
+
 import Curves from './curves';
 import { motion } from 'framer-motion';
-import Socials from './socials';
+
 import { ANIMATION_DURATION } from '@/lib/constants';
 import SectionTitle from './section-title';
 import { BubbleText } from './ui/bubble-text';
@@ -35,7 +35,7 @@ export default function Frame() {
     transition={{ duration: ANIMATION_DURATION.MEDIUM, ease: 'easeInOut' }}
     className="2xl:mt-5 fixed bottom-5 sm:bottom-10 left-5 sm:left-10 text-theme-secondary text-lg font-semibold  "
    >
-    Frontend Developer
+    
    </motion.p>
 
    <motion.div
@@ -48,9 +48,9 @@ export default function Frame() {
     className={`fixed top-[calc(50dvh-(176px/2))] z-20 hidden md:block left-5 sm:left-10 h-44 w-1 rounded-lg bg-theme-primary`}
    />
 
-   <Socials className="hidden lg:flex right-5 sm:bottom-10 sm:right-10 fixed bottom-5 " />
+   
    <Curves />
-   <Navigation />
+ 
    <SectionTitle />
   </div>
  );
