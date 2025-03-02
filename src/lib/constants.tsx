@@ -1,10 +1,9 @@
 import { Section, SectionColors, Sections } from './types';
 import Home from '@/components/home';
-import Works from '@/components/works';
 import MjolnirCover from '@/assets/images/mjolnir-cover.webp';
 import AinurCover from '@/assets/images/ainur-cover.webp';
 import JetonCover from '@/assets/images/jeton-cover.webp';
-import Experiences from '@/components/experiences';
+
 import Contact from '@/components/contact';
 
 export const ANIMATION_DURATION = {
@@ -15,11 +14,8 @@ export const ANIMATION_DURATION = {
 
 export const SECTIONS: Section[] = [
  { content: <Home />, title: 'Home' },
- { content: <Works />, title: 'Works' },
- {
-  content: <Experiences />,
-  title: 'Experiences',
- },
+
+ 
  {
   content: <Contact />,
   title: 'Contact',

@@ -23,7 +23,7 @@ export default function Frame() {
     transition={{ duration: ANIMATION_DURATION.MEDIUM, ease: 'easeInOut' }}
     className={`fixed top-5 sm:top-10 left-5 sm:left-10 z-20  `}
    >
-    <BubbleText className="text-2xl sm:text-4xl" text="Mahziyar Erfani" />
+    <BubbleText className="text-2xl sm:text-4xl" text="Imanpal Singh" />
    </motion.h1>
 
    <motion.p
