@@ -2,8 +2,8 @@ export type Direction = 'up' | 'down';
 
 export enum Sections {
  Home = 0,
- Works = 1,
- Experience = 2,
+ Description = 1,
+ Project = 2,
  Contact = 3,
 }
 

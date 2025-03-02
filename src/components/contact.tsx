@@ -37,7 +37,7 @@ export default function Contact() {
      href="mailto:mhzrerfani@gmail.com"
      className="text-xl font-semibold text-theme-primary underline mb-6 hoverable "
     >
-     i@gmail.com
+     imanpal.125@gmail.com
     </motion.a>
     <motion.div
      initial={{ opacity: 0, y: 20 }}
