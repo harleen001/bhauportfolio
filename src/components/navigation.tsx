@@ -6,7 +6,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import {
  ANIMATION_DURATION,
  SECTIONS,
- WORK_SUBSECTIONS,
 } from '@/lib/constants';
 import { generateUniqueTitleSections } from '@/lib/utils';
 import { Sections } from '@/lib/types';
@@ -71,9 +70,9 @@ export default function Navigation() {
         </motion.button>
 
         <AnimatePresence>
-         {section.title === 'Works' && sectionIndex === Sections.Works && (
+         {section.title === 'Works' && sectionIndex === Sections.Description && (
           <div className="flex ml-2 mt-1 space-x-1 absolute">
-           {[...Array(WORK_SUBSECTIONS)].map((_, subIndex) => (
+           {[].map((_, subIndex) => (
             <motion.button
              onClick={() => setSubsectionIndex(subIndex)}
              key={subIndex}
@@ -127,9 +126,9 @@ export default function Navigation() {
         </motion.button>
 
         <AnimatePresence>
-         {section.title === 'Works' && sectionIndex === Sections.Works && (
+         {section.title === 'Works' && sectionIndex === Sections.Project && (
           <div className="flex mt-1 space-x-1 absolute">
-           {[...Array(WORK_SUBSECTIONS)].map((_, subIndex) => (
+           {[].map((_, subIndex) => (
             <motion.button
              onClick={() => setSubsectionIndex(subIndex)}
              key={subIndex}
