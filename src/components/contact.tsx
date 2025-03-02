@@ -50,7 +50,7 @@ export default function Contact() {
       {`"With great power comes a huge electricity bill."`}
      </p>
      <p className="text-sm text-theme-primary font-semibold self-end">
-      — Doctor Who
+      — Velly Bhau
      </p>
     </motion.div>
    </div>
