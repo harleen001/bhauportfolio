@@ -27,8 +27,7 @@ export default function Contact() {
      transition={{ duration: 0.8, delay: 0.5 }}
      className="text-lg text-white mb-4"
     >
-     {`I'm always open to discussing new projects, creative ideas, or
-        opportunities to be part of your vision. Feel free to reach out!`}
+     {`I'm always open to discussing cybersecurity challenges, innovative security solutions, or opportunities to strengthen your digital defenses. Feel free to reach out!`}
     </motion.p>
     <motion.a
      initial={{ opacity: 0, x: -20 }}
@@ -47,10 +46,10 @@ export default function Contact() {
     >
      <span className="text-4xl text-theme-primary">❝</span>
      <p className="text-lg italic text-white mb-2">
-      {`"With great power comes a huge electricity bill."`}
+      {`"The only thing more dangerous than knowledge is an unstable Wi-Fi connection."`}
      </p>
      <p className="text-sm text-theme-primary font-semibold self-end">
-      — Velly Bhau
+      — Probably a cybersecurity expert
      </p>
     </motion.div>
    </div>

@@ -14,7 +14,7 @@ export default function BlogPage() {
                 <Image className='rounded-full border-4 border-theme-primary' width={120} height={120} src="/avatar.webp" alt="Mahziyar Erfani's Avatar" />
 
                 <div className='flex flex-col gap-8 items-center sm:items-start'>   <h1 className="text-4xl font-bold text-white">
-                    {`Mahziyar Erfani's Blog`}
+                    {`Imanpal Singh`}
                 </h1>
              
                 </div>

@@ -13,7 +13,6 @@ export default function NeonFigure() {
     className="relative z-20 object-cover w-full h-full"
     priority
    />
-
    <motion.svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 250 250"

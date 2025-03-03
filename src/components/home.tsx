@@ -65,11 +65,11 @@ export default function Home() {
    </div>
 
    <p className="text-2xl mt-10 sm:text-4xl text-white sm:mt-2 text-center">
-    Let’s create
+    Let’s secure the
     <span className="text-theme-primary">
-     <i>{` cool `}</i>
+     <i>{` digital `}</i>
     </span>
-    stuff together
+    world together
    </p>
    <button
     onClick={() => {
@@ -77,7 +77,7 @@ export default function Home() {
     }}
     className="text-theme-background text-lg rounded-2xl bg-white text-theme-4 hover:bg-theme-accent font-semibold hover:text-white px-24 py-3 mt-5 delay-0 hover:px-28 hoverable active:brightness-80 hover:tracking-widest transition-all duration-500 hover:shadow-2xl shadow-white"
    >
-    Contact me
+    Get in Touch ↗
    </button>
  
   </div>

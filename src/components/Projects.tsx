@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const works = [
   {
-    title: "Slice",
+    title: "Threshold-Timelock-Oracle ",
     description: "This is a website I built for Fintech Startups to showcase their innovative solutions tailored to meet the evolving needs of their clients.",
     imageUrl: "/assets/images/slice.png",
     width: 1080,
@@ -14,7 +14,7 @@ const works = [
     languages: ["Next.js", "Tailwind", "TypeScript"],
   },
   {
-    title: "Foodland",
+    title: "Honeypot",
     description: "A company website showcasing Foodland's food offerings and providing easy contact options for customers",
     imageUrl: "/assets/images/foodland.png",
     width: 1080,
@@ -25,7 +25,7 @@ const works = [
     languages: ["React", "Tailwind", "TypeScript"],
   },
   {
-    title: "SaveVest",
+    title: "Packet_sniffer",
     description: "A full-stack Next.js and Node.js platform designed to help users save money efficiently with various tools.",
     imageUrl: "/assets/images/save.png",
     width: 1893,
@@ -36,7 +36,7 @@ const works = [
     languages: ["Node.js", "Express", "MongoDB"],
   },
   {
-    title: "GameHub",
+    title: "Live Keylogger",
     description: "A platform offering game recommendations, search functionality, and more for gamers.",
     imageUrl: "/assets/images/gamehub.png",
     width: 1080,
@@ -47,7 +47,7 @@ const works = [
     languages: ["React.js", "Chakra UI", "API"],
   },
   {
-    title: "Horizon",
+    title: "Gravity_",
     description: "This is a website I built for Fintech Startups to showcase their innovative solutions tailored to meet the evolving needs of their clients.",
     imageUrl: "/assets/images/horiz.png",
     width: 1080,

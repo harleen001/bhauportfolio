@@ -1,23 +1,85 @@
-.article {
-    color: white;
-    width: 100%;
+/* Font Faces */
+@font-face {
+    font-family: "Formula Condensed";
+    src: url("../fonts/PPFormula-CondensedBlack.otf");
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Neue Montreal";
+    src: url("../fonts/NeueMontreal-Regular.otf");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Beni Bold";
+    src: url("../fonts/BeniBold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Beni Regular";
+    src: url("../fonts/BeniRegular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Main Container */
+.container {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    gap: 50px;
-    padding: 121px 0px 80px;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 50px 20px;
+    color: white;
+    font-family: "Neue Montreal", sans-serif;
 }
 
-.text_block {
-    margin: 10px 0;
-    font-size: clamp(1.55em, 1.7vw, 2em);
-    line-height: 1.45;
+/* Left: Experience Section */
+.left {
+    width: 45%;
     text-align: left;
-    max-width: 40vw;
 }
 
-.text_block:last-child {
-    font-size: clamp(0.7em, 0.95vw, 1.25em);
-    max-width: 17vw;
+/* Right: Skills Section */
+.right {
+    width: 45%;
+    text-align: left;
+}
+
+/* Headings */
+.heading {
+    font-size: 2.2rem;
+    font-family: "Formula Condensed", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Experience & Skills Text */
+.text {
+    font-size: 1.2rem;
+    font-family: "Neue Montreal", sans-serif;
+    line-height: 1.6;
+}
+
+/* Highlighted Job Titles */
+.strong {
+    font-family: "Beni Bold", sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left, .right {
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
