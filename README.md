@@ -1,1 +1,1 @@
-![thumbnail](https://github.com/user-attachments/assets/images/thumbnail)
+![thumbnail](https://github.com/bhauportfolio/src/assets/images/thumbnail)
