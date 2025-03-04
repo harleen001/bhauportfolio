@@ -69,7 +69,7 @@ export default function Home() {
     <span className="text-theme-primary">
      <i>{` Cybersecurity `}</i>
     </span>
-    Student
+     Student
    </p>
    <button
     onClick={() => {

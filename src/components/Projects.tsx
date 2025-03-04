@@ -10,7 +10,7 @@ const works = [
     height: 720,
     gitHub: "https://github.com/iman158/Threshold-Timelock-Oracle",
     status: "Live",
-    languages: ["Next.js", "Tailwind", "TypeScript"],
+    languages: ["Python"],
   },
   {
     title: "Honeypot",
@@ -21,7 +21,7 @@ const works = [
     gitHub: "https://github.com/iman158/Honeypot",
     link: "",
     status: "Live",
-    languages: ["React", "Tailwind", "TypeScript"],
+    languages: ["Python"],
   },
   {
     title: "Packet Sniffer",
@@ -32,7 +32,7 @@ const works = [
     gitHub: "https://github.com/iman158/Packet_sniffer",
     link: "",
     status: "Live",
-    languages: ["Node.js", "Express", "MongoDB"],
+    languages: ["Python"],
   },
   {
     title: "Python Reverse Shell",
@@ -43,7 +43,7 @@ const works = [
     gitHub: "https://github.com/iman158/Python_reverse_shell",
     link: "",
     status: "Live",
-    languages: ["React.js", "Chakra UI", "API"],
+    languages: ["Python"],
   },
   {
     title: "Gravity",
@@ -54,7 +54,7 @@ const works = [
     gitHub: "https://github.com/iman158/gravity_",
     link: "",
     status: "Live",
-    languages: ["Next.js", "Tailwind", "TypeScript"],
+    languages: ["Python"],
   },
 ];
 

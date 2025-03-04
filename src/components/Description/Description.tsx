@@ -20,7 +20,7 @@ const Description = () => {
                 <h2 className={styles.heading}>Technical Skills</h2>
                 <p className="text"><strong className="strong">Languages:</strong> Python, C++, Java, JavaScript, HTML, CSS, PowerShell</p>
                 <p className="text"><strong className="strong">Tools:</strong> Kali Linux, x64dbg, Unreal Engine, Vercel, Git, GitHub, Ghidra</p>
-                <p className="text"><strong className="strong">Soft Skills:</strong> Communication, Problem-Solving, Analytical Thinking</p>
+                <p className="text"><strong className="strong">Soft Skills:</strong> Soft Skills:: Excellent Communication, Conflict Resolution, Initiative, Analytical Decision Making</p>
             </div>
         </section>
     );
