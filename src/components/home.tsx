@@ -65,11 +65,11 @@ export default function Home() {
    </div>
 
    <p className="text-2xl mt-10 sm:text-4xl text-white sm:mt-2 text-center">
-    Let’s secure the
+    Part Time 
     <span className="text-theme-primary">
-     <i>{` digital `}</i>
+     <i>{` Cybersecurity `}</i>
     </span>
-    world together
+    Student
    </p>
    <button
     onClick={() => {
